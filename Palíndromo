@@ -1,0 +1,10 @@
+function isPalindrome(cadena){
+    let array = cadena.split("");
+    let reverse = array.reverse();
+    
+    return cadena == reverse.join("") ? "si es" : "No es "
+}
+    
+console.log(isPalindrome("112"))
+console.log(isPalindrome("121"))
+console.log(isPalindrome("45"))
